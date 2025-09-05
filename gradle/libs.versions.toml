@@ -1,5 +1,5 @@
 [versions]
-agp = "7.4.2"
+agp = "8.13.0"
 kotlin = "2.2.10"
 collektive = "27.0.0"
 coreKtx = "1.16.0"
