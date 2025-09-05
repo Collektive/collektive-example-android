@@ -72,13 +72,7 @@ Always reference these instructions first and fallback to search or bash command
 - **ALWAYS run linting before committing** or the CI (.github/workflows/build-and-deploy.yml) will fail.
 
 ### Validation Scenarios
-- **MANUAL VALIDATION REQUIREMENT**: After making changes, you MUST test the application functionality:
-  1. Build and install the debug APK on an Android device/emulator
-  2. Launch the application
-  3. Verify the UI displays "Collektive MQTT" with a connection indicator
-  4. Verify device ID is shown
-  5. Test MQTT connectivity by checking the connection status indicator (should turn green when connected to broker.hivemq.com)
-  6. **Note**: Full device discovery testing requires multiple devices/emulators running the app simultaneously
+- Run `./gradlew build assemble`
 
 ### Known Limitations
 - **Internet connectivity required**: Without internet access, `./gradlew build` fails with "Plugin not found" errors because Gradle cannot download the Android Gradle Plugin and dependencies.
