@@ -35,7 +35,7 @@ collektive-plugin = { module = "it.unibo.collektive:collektive-compiler-plugin",
 hivemq = { module = "com.hivemq:hivemq-mqtt-client", version.ref = "hivemq" }
 hivemq-reactor = { module = "com.hivemq:hivemq-mqtt-client-reactor", version.ref = "hivemq" }
 kotlin-logging-android = { module = "io.github.oshai:kotlin-logging-android", version.ref = "kotlin-logging" }
-kotlinx-datetime = "org.jetbrains.kotlinx:kotlinx-datetime:0.6.2"
+kotlinx-datetime = "org.jetbrains.kotlinx:kotlinx-datetime:0.7.1-0.6.x-compat"
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
 kotlinx-serialization-protobuf = { module = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf", version.ref = "serialization" }
 mktt = { module = "it.nicolasfarabegoli:mktt", version = "1.2.3" }
